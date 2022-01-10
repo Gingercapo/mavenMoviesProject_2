@@ -1,4 +1,4 @@
-xuse mavenmovies;
+use mavenmovies;
 
 /* 
 1. My partner and I want to come by each of the stores in person and meet the managers. 
@@ -21,6 +21,7 @@ SELECT DISTINCT
 		INNER JOIN country ON country.country_id = city.country_id;
 
 	
+	
 /*
 2.	I would like to get a better understanding of all of the inventory that would come along with the business. 
 Please pull together a   list of each inventory item you have stocked, including the store_id number, 
@@ -38,6 +39,7 @@ SELECT DISTINCT
 		INNER JOIN inventory
 			ON film.film_id = inventory.film_id
             LIMIT 5000;
+
 
 /* 
 3.	From the same list of films you just pulled, please roll that data up and provide a summary level overview 
@@ -126,9 +128,6 @@ GROUP BY
 		customer.first_name,
 		customer.last_name
 ORDER BY total_payment DESC;
-	
-
-
 
 
 
@@ -157,10 +156,6 @@ SELECT
     investor.last_name,
     investor.company_name
 FROM investor;
-
-
-
-
 
 
 
