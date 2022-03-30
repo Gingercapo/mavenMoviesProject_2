@@ -8,3 +8,5 @@ Me and my business partner were recently approached by another local business ow
 
 # Objective
 Am going to leveage on my SQL skills to extract and analyse from various tables in the Maven Movies Database to answer the questions which can be found in the mavenMovies.sql file.
+
+<img width="1186" alt="image" src="https://user-images.githubusercontent.com/56441231/160728321-7add187b-4e8a-4abc-9673-c66a8e66cb2e.png">
