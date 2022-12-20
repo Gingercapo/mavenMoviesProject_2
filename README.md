@@ -1,4 +1,4 @@
-# mySqlProject1
+# mavenMovies
 
 <#> mavenMovies
 
